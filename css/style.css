@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+.ctn {
+    width: 70%;
+    height: 100vh;
+    margin: 20px auto;
+    background-color: #ccc;
+    background-image: url(https://cdn.pixabay.com/photo/2012/04/16/11/51/printer-35651_960_720.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.pass {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50% -50%);
+    text-align: center;
+    
+
+}
