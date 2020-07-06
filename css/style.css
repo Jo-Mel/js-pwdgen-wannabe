@@ -5,31 +5,35 @@
 }
 
 .clearfix::after {
-    content: "";
+    content: '';
     clear: both;
     display: table;
 
 }
 
-.ctn {
-    width: 70%;
-    height: 100vh;
-    margin: 20px auto;
+body {
     background-color: #ccc;
-    background-image: url(https://cdn.pixabay.com/photo/2012/04/16/11/51/printer-35651_960_720.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
 }
 
-.pass {
-   
+.msg {
+    width: 450px;
+    height: 350px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50% -50%);
+    transform: translate(-50%, -50%);
+    background-image: url(https://www.dandreapartners.com/wp-content/uploads/2016/07/secret.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+ #pwdgen {
     text-align: center;
-    
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
 
 }
